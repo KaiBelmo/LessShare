@@ -50,7 +50,3 @@ src/
 - WebSocket connections (WSS) for real-time communication
 - Input validation on client-side
 
-> **Note**: For production use, consider implementing additional security measures such as:
-> - End-to-end encryption for file transfers
-> - File integrity verification
-> - Rate limiting and abuse prevention
