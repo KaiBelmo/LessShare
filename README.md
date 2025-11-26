@@ -1,5 +1,12 @@
 # LessShare: Decentralized Peer-to-Peer File Sharing System
 
+> **Project Structure & Status**  
+> - This project is currently not refactored. Refactoring is planned for a future update to improve code organization and maintainability.
+> - The project is divided into two main components:
+>   - **Frontend**: Vue 3 application with real-time file sharing and chat features ([README](./lessshare-frontend/README.md))
+>   - **Backend**: Node.js/Express server with WebSocket support ([README](./lessshare-backend/README.md))
+> - Each component has its own setup instructions and dependencies. Please refer to their respective README files for detailed information.
+
 ## 🚀 Thesis Title
 **Design and Implementation of a Decentralized Peer-to-Peer File Sharing System**
 
