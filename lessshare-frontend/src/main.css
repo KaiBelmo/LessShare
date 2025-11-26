@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Blade Runner custom styles */
+body {
+  @apply bg-gray-900 text-cyan-100 font-tech;
+}
+
+.neon-text {
+  text-shadow: 0 0 5px theme('colors.blade-cyan'), 
+              0 0 10px theme('colors.blade-cyan'),
+              0 0 15px theme('colors.blade-cyan');
+}
+
+.scanlines {
+  @apply fixed inset-0 pointer-events-none;
+  background: 
+    linear-gradient(
+      to bottom,
+      rgba(0, 255, 255, 0.03) 0%,
+      rgba(0, 255, 255, 0.03) 50%,
+      transparent 50%,
+      transparent 100%
+    );
+  background-size: 100% 4px;
+}
+
+#app {
+  display: block !important;
+  grid-template-columns: none !important;
+  padding: 0 !important;
+  width: 100% !important;
+}
